@@ -1,0 +1,681 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="view.com.company.UsuarioEntrada">
+  <grid id="27dc6" binding="panelUsuarios" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="8" y="10" width="1138" height="751"/>
+    </constraints>
+    <properties>
+      <background color="-15654591"/>
+      <enabled value="true"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="ced7" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15654591"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="9d9fc" binding="panelGeneral" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-13342309"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="5f0e6" binding="panelBotones" layout-manager="GridLayoutManager" row-count="4" column-count="9" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-14268777"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="94ace" class="javax.swing.JButton" binding="agregarButton">
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <actionCommand value="Añadir"/>
+                      <alignmentX value="0.5"/>
+                      <background color="-16158258"/>
+                      <focusPainted value="false"/>
+                      <font name="JetBrains Mono" size="12" style="1"/>
+                      <foreground color="-1"/>
+                      <horizontalTextPosition value="0"/>
+                      <icon value="Imagenes/seguidores - 48px - copia.png"/>
+                      <iconTextGap value="0"/>
+                      <label value="Añadir"/>
+                      <text value="Añadir"/>
+                      <verticalTextPosition value="3"/>
+                    </properties>
+                  </component>
+                  <hspacer id="3119d">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                  </hspacer>
+                  <component id="b2356" class="javax.swing.JButton" binding="eliminar">
+                    <constraints>
+                      <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <actionCommand value="Eliminar"/>
+                      <alignmentX value="0.5"/>
+                      <background color="-16158258"/>
+                      <borderPainted value="true"/>
+                      <contentAreaFilled value="true"/>
+                      <defaultCapable value="true"/>
+                      <focusPainted value="false"/>
+                      <font name="JetBrains Mono" size="12" style="1"/>
+                      <foreground color="-1"/>
+                      <horizontalTextPosition value="0"/>
+                      <icon value="Imagenes/carpeta-48px - copia.png"/>
+                      <iconTextGap value="0"/>
+                      <text value="Eliminar"/>
+                      <verticalTextPosition value="3"/>
+                    </properties>
+                  </component>
+                  <component id="6c19b" class="javax.swing.JButton" binding="modificar">
+                    <constraints>
+                      <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <actionCommand value="Modificar"/>
+                      <alignmentX value="0.5"/>
+                      <background color="-16158258"/>
+                      <focusPainted value="false"/>
+                      <font name="JetBrains Mono" size="12" style="1"/>
+                      <foreground color="-1"/>
+                      <horizontalAlignment value="0"/>
+                      <horizontalTextPosition value="0"/>
+                      <icon value="Imagenes/responsabilidad-social-48px.png"/>
+                      <iconTextGap value="0"/>
+                      <text value="Modificar"/>
+                      <verticalTextPosition value="3"/>
+                    </properties>
+                  </component>
+                  <component id="c65eb" class="javax.swing.JButton" binding="importarDatosButton" default-binding="true">
+                    <constraints>
+                      <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <actionCommand value="Importar"/>
+                      <background color="-16158258"/>
+                      <focusPainted value="false"/>
+                      <focusable value="true"/>
+                      <font name="JetBrains Mono" size="12" style="1"/>
+                      <foreground color="-1"/>
+                      <horizontalAlignment value="0"/>
+                      <horizontalTextPosition value="0"/>
+                      <icon value="Imagenes/importarDatos.png"/>
+                      <text value="Importar Datos"/>
+                      <verticalAlignment value="0"/>
+                      <verticalTextPosition value="3"/>
+                    </properties>
+                  </component>
+                  <component id="8c083" class="javax.swing.JTextField" binding="textFieldBuscar">
+                    <constraints>
+                      <grid row="2" column="2" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-5453599"/>
+                      <caretColor color="-1"/>
+                      <font name="JetBrains Mono" size="12" style="1"/>
+                      <horizontalAlignment value="0"/>
+                    </properties>
+                  </component>
+                  <hspacer id="bd7d4">
+                    <constraints>
+                      <grid row="0" column="8" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                  </hspacer>
+                  <scrollpane id="fa224">
+                    <constraints>
+                      <grid row="3" column="0" row-span="1" col-span="9" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <autoscrolls value="true"/>
+                      <background color="-12156247"/>
+                      <enabled value="false"/>
+                      <focusCycleRoot value="false"/>
+                      <focusTraversalPolicyProvider value="false"/>
+                      <font name="JetBrains Mono" size="16" style="1"/>
+                      <foreground color="-16777216"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="4248d" class="javax.swing.JTable" binding="table1" default-binding="true">
+                        <constraints/>
+                        <properties>
+                          <selectionForeground color="-16777216"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </scrollpane>
+                  <component id="b6a8a" class="javax.swing.JButton" binding="buttonCSV">
+                    <constraints>
+                      <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-16158258"/>
+                      <borderPainted value="true"/>
+                      <contentAreaFilled value="true"/>
+                      <defaultCapable value="true"/>
+                      <focusPainted value="false"/>
+                      <focusable value="true"/>
+                      <font name="JetBrains Mono" size="12" style="1"/>
+                      <foreground color="-1"/>
+                      <horizontalTextPosition value="0"/>
+                      <icon value="Imagenes/csv1.png"/>
+                      <text value="CSV"/>
+                      <verticalTextPosition value="3"/>
+                      <visible value="true"/>
+                    </properties>
+                  </component>
+                  <component id="83ae0" class="javax.swing.JButton" binding="limpiar">
+                    <constraints>
+                      <grid row="0" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-16158258"/>
+                      <borderPainted value="true"/>
+                      <focusPainted value="false"/>
+                      <font name="JetBrains Mono" size="12" style="1"/>
+                      <foreground color="-1"/>
+                      <horizontalTextPosition value="0"/>
+                      <icon value="Imagenes/borrador-48px.png"/>
+                      <text value="Limpiar"/>
+                      <verticalTextPosition value="3"/>
+                    </properties>
+                  </component>
+                  <component id="d1ef" class="javax.swing.JButton" binding="atras">
+                    <constraints>
+                      <grid row="0" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <actionCommand value="Atras"/>
+                      <background color="-16158258"/>
+                      <focusPainted value="false"/>
+                      <font name="JetBrains Mono" size="12" style="1"/>
+                      <foreground color="-1"/>
+                      <horizontalTextPosition value="0"/>
+                      <icon value="Imagenes/atrasx48px.png"/>
+                      <text value="Atras"/>
+                      <verticalTextPosition value="3"/>
+                    </properties>
+                  </component>
+                  <component id="da31a" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="1" column="2" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="JetBrains Mono" size="12" style="1"/>
+                      <foreground color="-1"/>
+                      <text value="Buscar por DNI"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="b93f6" binding="panelLogo" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-13475435"/>
+                  <enabled value="true"/>
+                  <foreground color="-1"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="506db" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-1"/>
+                      <font name="JetBrains Mono" size="20" style="1"/>
+                      <foreground color="-1"/>
+                      <horizontalAlignment value="0"/>
+                      <horizontalTextPosition value="4"/>
+                      <icon value="Imagenes/LogotipoUni.png"/>
+                      <iconTextGap value="2"/>
+                      <text value="REGISTRO DE USUARIOS"/>
+                      <verticalTextPosition value="0"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="6ff2" binding="panelDatos" layout-manager="GridLayoutManager" row-count="3" column-count="10" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-13475435"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="9367f" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="JetBrains Mono" size="12" style="1"/>
+                      <foreground color="-1"/>
+                      <text value="DNI"/>
+                    </properties>
+                  </component>
+                  <component id="53e3d" class="javax.swing.JTextField" binding="textFieldDni">
+                    <constraints>
+                      <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-5453599"/>
+                      <font name="JetBrains Mono" size="12" style="1"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="431bb" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="1" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="JetBrains Mono" size="12" style="1"/>
+                      <foreground color="-1"/>
+                      <text value="Dirección"/>
+                    </properties>
+                  </component>
+                  <component id="b535" class="javax.swing.JTextField" binding="textField6Direccion">
+                    <constraints>
+                      <grid row="1" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-5453599"/>
+                      <font name="JetBrains Mono" size="12" style="1"/>
+                    </properties>
+                  </component>
+                  <component id="c12a2" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="JetBrains Mono" size="12" style="1"/>
+                      <foreground color="-1"/>
+                      <text value="Nombre"/>
+                    </properties>
+                  </component>
+                  <component id="f9c57" class="javax.swing.JTextField" binding="textFieldNombre">
+                    <constraints>
+                      <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-5453599"/>
+                      <font name="JetBrains Mono" size="12" style="1"/>
+                    </properties>
+                  </component>
+                  <component id="9c2b7" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="0" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="JetBrains Mono" size="12" style="1"/>
+                      <foreground color="-1"/>
+                      <text value="Primer Apellido"/>
+                    </properties>
+                  </component>
+                  <component id="238c4" class="javax.swing.JTextField" binding="textFieldCiudad">
+                    <constraints>
+                      <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-5453599"/>
+                      <font name="JetBrains Mono" size="12" style="1"/>
+                    </properties>
+                  </component>
+                  <component id="fd0bc" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="JetBrains Mono" size="12" style="1"/>
+                      <foreground color="-1"/>
+                      <text value="Ciudad"/>
+                    </properties>
+                  </component>
+                  <component id="7b3aa" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="JetBrains Mono" size="12" style="1"/>
+                      <foreground color="-1"/>
+                      <text value="Segundo Apellido"/>
+                    </properties>
+                  </component>
+                  <component id="c5f04" class="javax.swing.JTextField" binding="textFieldPrimerApellido">
+                    <constraints>
+                      <grid row="0" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-5453599"/>
+                      <font name="JetBrains Mono" size="12" style="1"/>
+                    </properties>
+                  </component>
+                  <component id="22592" class="javax.swing.JTextField" binding="textFieldSegundoApellido">
+                    <constraints>
+                      <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-5453599"/>
+                      <font name="JetBrains Mono" size="12" style="1"/>
+                    </properties>
+                  </component>
+                  <component id="a1c83" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="JetBrains Mono" size="12" style="1"/>
+                      <foreground color="-1"/>
+                      <text value="Telefono"/>
+                    </properties>
+                  </component>
+                  <component id="fdba5" class="javax.swing.JTextField" binding="textFieldTelefono">
+                    <constraints>
+                      <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-5453599"/>
+                      <font name="JetBrains Mono" size="12" style="1"/>
+                    </properties>
+                  </component>
+                  <grid id="35b85" binding="panelRolSex" layout-manager="GridLayoutManager" row-count="1" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="2" column="4" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13475435"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="49ec4" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="JetBrains Mono" size="12" style="1"/>
+                          <foreground color="-1"/>
+                          <text value="Rol"/>
+                        </properties>
+                      </component>
+                      <component id="99714" class="javax.swing.JComboBox" binding="comboBoxRol">
+                        <constraints>
+                          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-5453599"/>
+                          <font name="JetBrains Mono" size="12" style="1"/>
+                          <model>
+                            <item value="..."/>
+                            <item value="profesor"/>
+                            <item value="alumno"/>
+                          </model>
+                        </properties>
+                      </component>
+                      <component id="25cab" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="JetBrains Mono" size="12" style="1"/>
+                          <foreground color="-1"/>
+                          <text value="Sexo"/>
+                        </properties>
+                      </component>
+                      <component id="10408" class="javax.swing.JComboBox" binding="comboBoxSexo">
+                        <constraints>
+                          <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-5453599"/>
+                          <font name="JetBrains Mono" size="12" style="1"/>
+                          <model>
+                            <item value="..."/>
+                            <item value="H"/>
+                            <item value="M"/>
+                          </model>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="d0b21" binding="panelNacimiento" layout-manager="GridLayoutManager" row-count="1" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="2" column="6" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13475435"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="3dbb6" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <foreground color="-1"/>
+                          <text value="Dia"/>
+                        </properties>
+                      </component>
+                      <component id="32c71" class="javax.swing.JComboBox" binding="comboBoxDia">
+                        <constraints>
+                          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-5453599"/>
+                          <font name="JetBrains Mono" size="12" style="1"/>
+                          <model>
+                            <item value="..."/>
+                            <item value="01"/>
+                            <item value="02"/>
+                            <item value="03"/>
+                            <item value="04"/>
+                            <item value="05"/>
+                            <item value="06"/>
+                            <item value="07"/>
+                            <item value="08"/>
+                            <item value="09"/>
+                            <item value="10"/>
+                            <item value="11"/>
+                            <item value="12"/>
+                            <item value="13"/>
+                            <item value="14"/>
+                            <item value="15"/>
+                            <item value="16"/>
+                            <item value="17"/>
+                            <item value="18"/>
+                            <item value="19"/>
+                            <item value="20"/>
+                            <item value="21"/>
+                            <item value="22"/>
+                            <item value="23"/>
+                            <item value="24"/>
+                            <item value="25"/>
+                            <item value="26"/>
+                            <item value="27"/>
+                            <item value="28"/>
+                            <item value="29"/>
+                            <item value="30"/>
+                            <item value="31"/>
+                          </model>
+                        </properties>
+                      </component>
+                      <component id="658be" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <foreground color="-1"/>
+                          <text value="Mes"/>
+                        </properties>
+                      </component>
+                      <component id="2c4b6" class="javax.swing.JComboBox" binding="comboBoxMes">
+                        <constraints>
+                          <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-5453599"/>
+                          <font name="JetBrains Mono" size="12" style="1"/>
+                          <model>
+                            <item value="..."/>
+                            <item value="01"/>
+                            <item value="02"/>
+                            <item value="03"/>
+                            <item value="04"/>
+                            <item value="05"/>
+                            <item value="06"/>
+                            <item value="07"/>
+                            <item value="08"/>
+                            <item value="09"/>
+                            <item value="10"/>
+                            <item value="11"/>
+                            <item value="12"/>
+                          </model>
+                        </properties>
+                      </component>
+                      <component id="ea1fa" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <foreground color="-1"/>
+                          <text value="Año"/>
+                        </properties>
+                      </component>
+                      <component id="d9fe0" class="javax.swing.JComboBox" binding="comboBoxAnio">
+                        <constraints>
+                          <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-5453599"/>
+                          <font name="JetBrains Mono" size="12" style="1"/>
+                          <model>
+                            <item value="..."/>
+                            <item value="1960"/>
+                            <item value="1961"/>
+                            <item value="1962"/>
+                            <item value="1963"/>
+                            <item value="1964"/>
+                            <item value="1965"/>
+                            <item value="1966"/>
+                            <item value="1967"/>
+                            <item value="1968"/>
+                            <item value="1969"/>
+                            <item value="1970"/>
+                            <item value="1971"/>
+                            <item value="1972"/>
+                            <item value="1973"/>
+                            <item value="1974"/>
+                            <item value="1975"/>
+                            <item value="1976"/>
+                            <item value="1977"/>
+                            <item value="1978"/>
+                            <item value="1979"/>
+                            <item value="1980"/>
+                            <item value="1981"/>
+                            <item value="1982"/>
+                            <item value="1983"/>
+                            <item value="1984"/>
+                            <item value="1985"/>
+                            <item value="1986"/>
+                            <item value="1987"/>
+                            <item value="1988"/>
+                            <item value="1989"/>
+                            <item value="1990"/>
+                            <item value="1991"/>
+                            <item value="1992"/>
+                            <item value="1993"/>
+                            <item value="1994"/>
+                            <item value="1995"/>
+                            <item value="1996"/>
+                            <item value="1997"/>
+                            <item value="1998"/>
+                            <item value="1999"/>
+                            <item value="2000"/>
+                            <item value="2001"/>
+                            <item value="2002"/>
+                            <item value="2003"/>
+                            <item value="2004"/>
+                            <item value="2005"/>
+                            <item value="2006"/>
+                            <item value="2007"/>
+                            <item value="2008"/>
+                            <item value="2009"/>
+                            <item value="2010"/>
+                            <item value="2011"/>
+                            <item value="2012"/>
+                            <item value="2013"/>
+                            <item value="2014"/>
+                          </model>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <hspacer id="63628">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                  </hspacer>
+                  <hspacer id="ddba7">
+                    <constraints>
+                      <grid row="1" column="9" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                  </hspacer>
+                  <hspacer id="cfe04">
+                    <constraints>
+                      <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                  </hspacer>
+                  <hspacer id="e2a2a">
+                    <constraints>
+                      <grid row="2" column="8" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                  </hspacer>
+                </children>
+              </grid>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

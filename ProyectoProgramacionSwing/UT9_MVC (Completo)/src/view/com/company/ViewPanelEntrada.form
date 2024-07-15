@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="view.com.company.ViewPanelEntrada">
+  <grid id="27dc6" binding="panelEntrada" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="1" y="2" width="1118" height="637"/>
+    </constraints>
+    <properties>
+      <background color="-3878949"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="e6589" layout-manager="GridLayoutManager" row-count="4" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="987" height="139"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-9135166"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <scrollpane id="9e0a7">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <autoscrolls value="true"/>
+              <background color="-12156247"/>
+              <enabled value="false"/>
+              <focusCycleRoot value="false"/>
+              <focusTraversalPolicyProvider value="false"/>
+              <focusable value="false"/>
+              <font name="JetBrains Mono" size="16" style="1"/>
+              <foreground color="-16777216"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="3edad" class="javax.swing.JTable" binding="table1" default-binding="true">
+                <constraints/>
+                <properties>
+                  <font name="JetBrains Mono" size="12" style="0"/>
+                  <selectionForeground color="-16777216"/>
+                </properties>
+              </component>
+            </children>
+          </scrollpane>
+          <grid id="d5d60" binding="JPanelNombre" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-12156247"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="5f3e7" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="18" style="1"/>
+                  <foreground color="-16777216"/>
+                  <text value="Proyecto Realizado por Eliu Manuel Viera Lorenzo DAM 1ºA (IES El Rincon) 2023/2024"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="99864" binding="panelBusqueda" layout-manager="GridLayoutManager" row-count="3" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="true"/>
+            </constraints>
+            <properties>
+              <autoscrolls value="false"/>
+              <background color="-13475435"/>
+              <focusCycleRoot value="false"/>
+              <focusTraversalPolicyProvider value="false"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="7dde6" binding="panelLogo" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="5" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-13475435"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="6847b" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <horizontalAlignment value="0"/>
+                      <horizontalTextPosition value="0"/>
+                      <icon value="Imagenes/uniAlmeria - logo.png"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <component id="80f5a" class="javax.swing.JTextField" binding="textFieldDni">
+                <constraints>
+                  <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <minimum-size width="10" height="10"/>
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-5453599"/>
+                  <font name="JetBrains Mono" size="12" style="1"/>
+                </properties>
+              </component>
+              <component id="5dedd" class="javax.swing.JTextField" binding="textFieldNombreAsignatura">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-5453599"/>
+                  <font name="JetBrains Mono" size="12" style="1"/>
+                </properties>
+              </component>
+              <component id="7f1e9" class="javax.swing.JButton" binding="buttonBuscar">
+                <constraints>
+                  <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <actionCommand value="Buscar"/>
+                  <background color="-16158258"/>
+                  <borderPainted value="true"/>
+                  <focusPainted value="false"/>
+                  <font name="JetBrains Mono" size="12" style="1"/>
+                  <foreground color="-1"/>
+                  <horizontalTextPosition value="11"/>
+                  <icon value="Imagenes/lupa-48px.png"/>
+                  <label value="Buscar"/>
+                  <text value="Buscar"/>
+                  <verticalTextPosition value="0"/>
+                </properties>
+              </component>
+              <hspacer id="de0d2">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+              <hspacer id="59af8">
+                <constraints>
+                  <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+              <component id="82021" class="javax.swing.JLabel" binding="nombreAsignatura">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="12" style="1"/>
+                  <foreground color="-1"/>
+                  <text value="Nombre de Asignatura"/>
+                </properties>
+              </component>
+              <component id="67322" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="12" style="1"/>
+                  <foreground color="-1"/>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <text value="DNI"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="9b7b9" binding="PanelDatos" layout-manager="GridLayoutManager" row-count="1" column-count="7" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-14268777"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="9fe6c" class="javax.swing.JButton" binding="eliminar">
+                <constraints>
+                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <actionCommand value="Eliminar"/>
+                  <alignmentX value="0.5"/>
+                  <background color="-16158258"/>
+                  <borderPainted value="true"/>
+                  <contentAreaFilled value="true"/>
+                  <defaultCapable value="true"/>
+                  <focusPainted value="false"/>
+                  <font name="JetBrains Mono" size="12" style="1"/>
+                  <foreground color="-1"/>
+                  <horizontalTextPosition value="0"/>
+                  <icon value="Imagenes/dbasignaturas.png"/>
+                  <iconTextGap value="0"/>
+                  <text value=" Consultar Asignaturas"/>
+                  <verifyInputWhenFocusTarget value="true"/>
+                  <verticalTextPosition value="3"/>
+                  <visible value="true"/>
+                </properties>
+              </component>
+              <component id="f8bf2" class="javax.swing.JButton" binding="asignaturasButton" default-binding="true">
+                <constraints>
+                  <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <actionCommand value="Asignaturas"/>
+                  <background color="-16158258"/>
+                  <focusPainted value="false"/>
+                  <font name="JetBrains Mono" size="12" style="1"/>
+                  <foreground color="-1"/>
+                  <horizontalTextPosition value="0"/>
+                  <icon value="Imagenes/lista-48px - copia.png"/>
+                  <iconTextGap value="0"/>
+                  <text value=" Listado Asignaturas"/>
+                  <verticalTextPosition value="3"/>
+                </properties>
+              </component>
+              <component id="6bf8c" class="javax.swing.JButton" binding="personasButton" default-binding="true">
+                <constraints>
+                  <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <actionCommand value="Personas"/>
+                  <background color="-16158258"/>
+                  <focusPainted value="false"/>
+                  <font name="JetBrains Mono" size="12" style="1"/>
+                  <foreground color="-1"/>
+                  <horizontalTextPosition value="0"/>
+                  <icon value="Imagenes/cliente-48px - copia.png"/>
+                  <iconTextGap value="0"/>
+                  <text value=" Listado de Usuarios"/>
+                  <verticalTextPosition value="3"/>
+                </properties>
+              </component>
+              <hspacer id="941a2">
+                <constraints>
+                  <grid row="0" column="6" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+              <component id="f5b33" class="javax.swing.JButton" binding="agregarButton">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <actionCommand value="Añadir"/>
+                  <alignmentX value="0.5"/>
+                  <background color="-16158258"/>
+                  <borderPainted value="true"/>
+                  <contentAreaFilled value="true"/>
+                  <defaultCapable value="true"/>
+                  <enabled value="true"/>
+                  <focusPainted value="false"/>
+                  <focusable value="true"/>
+                  <font name="JetBrains Mono" size="12" style="1"/>
+                  <foreground color="-1116161"/>
+                  <horizontalTextPosition value="0"/>
+                  <icon value="Imagenes/usuarios.png"/>
+                  <iconTextGap value="0"/>
+                  <label value=" Consultar Usuarios"/>
+                  <text value=" Consultar Usuarios"/>
+                  <verticalTextPosition value="3"/>
+                </properties>
+              </component>
+              <hspacer id="45fc3">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+              <component id="9334b" class="javax.swing.JButton" binding="limpiar">
+                <constraints>
+                  <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-16158258"/>
+                  <font name="JetBrains Mono" size="12" style="1"/>
+                  <foreground color="-1"/>
+                  <horizontalTextPosition value="0"/>
+                  <icon value="Imagenes/borrador-48px.png"/>
+                  <text value="Limpiar"/>
+                  <verticalTextPosition value="3"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
